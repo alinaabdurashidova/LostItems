@@ -42,6 +42,9 @@ INSTALLED_APPS = [
     #libs
     'rest_framework',
     # 'dry_yasg'
+    
+    
+    
     'Comment',
     'Category'
 

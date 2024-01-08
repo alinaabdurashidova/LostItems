@@ -12,8 +12,8 @@ class Comment(models.Model):
         related_name = 'comments'
     )
     created_at = models.DateField(auto_now_add = True)
-    post = models.ForeignKey(
-        # Post,
-        on_delete = models.CASCADE,
-        related_name = 'comments'
-    )
+    # post = models.ForeignKey(
+    #     # Post,
+    #     on_delete = models.CASCADE,
+    #     related_name = 'comments'
+    # )
